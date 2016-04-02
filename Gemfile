@@ -8,6 +8,9 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 
+gem 'responders', '~> 2.0'
+gem 'devise'
+
 #Api gems
 gem 'active_model_serializers'
 gem 'grape-swagger-rails'
