@@ -6,13 +6,13 @@ describe ApiConstraints do
 
   describe "matches?" do
     it "returns true when the version matches the 'Accept' header" do
-      request = double(host: 'api.tutorial.dev',
+      request = double(host: 'api.rails_api_tutorial.dev',
                        headers: {"Accept" => "application/vnd.marketplace.v1"})
-      api_constraints_v1.matches?(request).should_be_true
+      api_constraints_v2.matches?(request).should be_truthy
     end
     it "returns true when the default version is requested" do
-      request = double(host: 'api.tutorial.dev')
-      api_constraints_v2.matches?(request).should_be_true
+      request = double(host: 'api.rails_api_tutorial.dev')
+      api_constraints_v2.matches?(request).should be_truthy
     end
   end
 end
