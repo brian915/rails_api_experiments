@@ -10,12 +10,17 @@
   3. replace 'debugger' with 'pry-byebug'
   3. initialize repo
   4. setup db :
-      createuser -r -d -l -w api 
-      createdb -U api -w api_development 
-      psql -U api -d api_development 
+        createuser -r -d -l -w api 
+        createdb -U api -w api_development 
+        createdb -U api -w api_test 
+        psql -U api -d api_development 
   5. generate some controllers/models/migrations/view CRUD
   6. push to heroku & test 
 
+###A Note on Sources###
+
+The tutorial is seriously flawed - most of the code taken from RailsCast #350, better to use both in tandem 
+http://railscasts.com/episodes/350-rest-api-versioning?view=asciicast
 
 ###Introduction
 
