@@ -4,8 +4,10 @@
 
 ###My Version###
 
-  1. setup up Ruby & Rails App with rbenv & rails generator latest versions
-  2. modify Gemfile to include recommened gems as per below 
+  1. setup up Ruby & Rails App with rbenv & rails generator
+  Rails 4.2.4, Ruby 2.2.3
+  2. modify Gemfile to include 'active_model_serializers'
+  3. replace 'debugger' with 'pry-byebug'
   3. initialize repo
   4. setup db 
   5. push to heroku & test 
