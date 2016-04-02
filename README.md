@@ -1,6 +1,16 @@
 # rails_api_tutorial
 
 ##Chapter 1
+
+###My Version###
+
+  1. setup up Ruby & Rails App with rbenv & rails generator latest versions
+  2. modify Gemfile to include recommened gems as per below 
+  3. initialize repo
+  4. setup db 
+  5. push to heroku & test 
+        
+
 ###Introduction
 
 Welcome to APIs on Rails a tutorial on steroids on how to buid your next API with Rails. The goal of this book is to provide an answer on how to develop a RESTful API following the best practices out there, along with my own experience. By the time you are done with *API’s on Rails* you should be able to build your own **API** and integrate it with any clients such as a web browser or your next mobile app. The code generated is built on top of Rails 4 which is the current version, for more information about this check out http://rubyonrails.org/. The most up-to-date version of the API’s on Rails can be found on http://apionrails.icalialabs.com; don’t forget to update your offline version if that is the case.
