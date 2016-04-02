@@ -16,6 +16,8 @@
         psql -U api -d api_development 
   5. generate some controllers/models/migrations/view CRUD
   6. push to heroku & test 
+  7. first test : bundle exec rspec lib/spec/api_constraints_spec.rb
+  8. tests require POW installed for use of subdomain without mucking too deep in apache , nginx etc ... 
 
 ###A Note on Sources###
 
