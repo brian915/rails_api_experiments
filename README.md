@@ -19,7 +19,15 @@
   7. first test : bundle exec rspec lib/spec/api_constraints_spec.rb
   8. tests require POW installed for use of subdomain without mucking too deep in apache , nginx etc ...
   9. added gem 'responders' to get responds_to / responds_with functionality back
-  10. 
+  10. added devise gem, generated user , added flash to application.html.erb , ran first migration :
+      ee Gemfile
+      bundle install 
+      rails g devise:install 
+      ee app/views/layouts/application.html.erb 
+      rails g devise User 
+      rake db:migrate 
+      rake db:test:prepare
+
 ###A Note on Sources###
 
 The tutorial is seriously flawed - most of the code taken from RailsCast #350, better to use both in tandem 
