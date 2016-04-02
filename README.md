@@ -6,10 +6,11 @@
 Welcome to APIs on Rails a tutorial on steroids on how to buid your next API with Rails. The goal of this book is to provide an answer on how to develop a RESTful API following the best practices out there, along with my own experience. By the time you are done with *API’s on Rails* you should be able to build your own **API** and integrate it with any clients such as a web browser or your next mobile app. The code generated is built on top of Rails 4 which is the current version, for more information about this check out http://rubyonrails.org/. The most up-to-date version of the API’s on Rails can be found on http://apionrails.icalialabs.com; don’t forget to update your offline version if that is the case.
 
 The intention with this book it’s not teach just how to build an API with Rails rather to teach you how to build scalable and maintanable API with Rails, which means taking your current Rails knowledge to the next level when on this approach. In this journey we are going to take, you will learn to: 
-  Build JSON responses  
-  Use Git for version controlling  
-  Testing your endpoints  
-  Optimize and cache the API  
+
+  1.Build JSON responses  
+  2.Use Git for version controlling  
+  3.Testing your endpoints  
+  4.Optimize and cache the API  
 
 I highly recommend you go step by step on this book, try not to skip chapters, as I mention tips and interesting facts for improving your skills on each on them. You can think yourself as the main character of a video game and with each chapter you’ll get a higher level.
 
@@ -21,9 +22,9 @@ The final application will scratch the surface of being a market place where use
 
 By the end or during the process(it really depends on your expertise), you will get better and be able to better understand some of the bests Rails resources out there. I also took some of the practices from these guys and brought them to you:
 
-  Railscasts  
-  CodeSchool  
-  Json api  
+  1. Railscasts  
+  2. CodeSchool  
+  3. JSON API  
 
 ###1.1 Conventions on this book
 
