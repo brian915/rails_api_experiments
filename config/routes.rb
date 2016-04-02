@@ -7,20 +7,20 @@ Rails.application.routes.draw do
   namespace :api, defaults: { formats: :json }, 
             constraints: { subdomain: 'api' }, path: '/'  do
 
-    scope module: :v1, constraints: ApiConstraints.new(version: 1) do
-      resources :products
+    scope module: :v1, constraints: ApiConstraints.new(version: 1, default: :true) do
+#      resources :products
       resources :users, :only => [:show]
     end
-    scope module: :v2, constraints: ApiConstraints.new(version: 2, default: :true) do
-      resources :products
+    scope module: :v2, constraints: ApiConstraints.new(version: 2) do
+ #     resources :products
+      resources :users, :only => [:show]
     end
 
   end
   
   mount GrapeSwaggerRails::Engine => '/swagger'
 
-  resources :products
-  root to: 'products#index'  
+  #root to: 'products#index'  
 
 
 end
