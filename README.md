@@ -17,8 +17,9 @@
   5. generate some controllers/models/migrations/view CRUD
   6. push to heroku & test 
   7. first test : bundle exec rspec lib/spec/api_constraints_spec.rb
-  8. tests require POW installed for use of subdomain without mucking too deep in apache , nginx etc ... 
-
+  8. tests require POW installed for use of subdomain without mucking too deep in apache , nginx etc ...
+  9. added gem 'responders' to get responds_to / responds_with functionality back
+  10. 
 ###A Note on Sources###
 
 The tutorial is seriously flawed - most of the code taken from RailsCast #350, better to use both in tandem 
