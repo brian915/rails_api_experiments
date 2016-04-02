@@ -27,7 +27,7 @@
       rails g devise User 
       rake db:migrate 
       rake db:test:prepare
-
+  11. shoulda_matchers 3.0 completely different implementation :  https://github.com/thoughtbot/shoulda-matchers#getting-started
 ###A Note on Sources###
 
 The tutorial is seriously flawed - most of the code taken from RailsCast #350, better to use both in tandem 
