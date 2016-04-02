@@ -9,9 +9,13 @@
   2. modify Gemfile to include 'active_model_serializers'
   3. replace 'debugger' with 'pry-byebug'
   3. initialize repo
-  4. setup db 
-  5. push to heroku & test 
-        
+  4. setup db :
+      createuser -r -d -l -w api 
+      createdb -U api -w api_development 
+      psql -U api -d api_development 
+  5. generate some controllers/models/migrations/view CRUD
+  6. push to heroku & test 
+
 
 ###Introduction
 
