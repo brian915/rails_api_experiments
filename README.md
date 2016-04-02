@@ -27,7 +27,11 @@
       rails g devise User 
       rake db:migrate 
       rake db:test:prepare
-  11. shoulda_matchers 3.0 completely different implementation :  https://github.com/thoughtbot/shoulda-matchers#getting-started
+  11. shoulda_matchers 3.0 completely different implementation
+       https://github.com/thoughtbot/shoulda-matchers#getting-started
+  12. rspec had to be updated as well , to 3.4
+      https://relishapp.com/rspec/rspec-rails/docs/upgrade
+  
 ###A Note on Sources###
 
 The tutorial is seriously flawed - most of the code taken from RailsCast #350, better to use both in tandem 
