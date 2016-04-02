@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   # Api definition
-  namespace :api do
-    # We are going to list our resources here
+  namespace :api, defaults: { formats: :json } do
+
   end
 end
