@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.2.3'
 gem 'rails', '4.2.4'
 gem 'pg'
 gem 'sass-rails', '~> 5.0'
@@ -26,5 +27,9 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+end
+
+group :production do
+  gem 'puma'
 end
 
