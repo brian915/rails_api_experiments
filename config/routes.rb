@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 
     scope module: :v1, constraints: ApiConstraints.new(version: 1) do
       resources :products
+      resources :users, :only => [:show]
     end
     scope module: :v2, constraints: ApiConstraints.new(version: 2, default: :true) do
       resources :products
