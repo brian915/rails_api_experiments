@@ -31,6 +31,8 @@
        https://github.com/thoughtbot/shoulda-matchers#getting-started
   12. rspec had to be updated as well , to 3.4
       https://relishapp.com/rspec/rspec-rails/docs/upgrade
+  13. curl examples not working, require **.json** at the end of the request :
+      curl -H 'Accept: application/vnd.marketplace.v1' http://api.rails_api_tutorial.dev/users/1.json 
   
 ###A Note on Sources###
 
