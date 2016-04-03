@@ -16,16 +16,11 @@ module Api
       end
 
       def update
-        respond_with Product.update(params[:id], params[:products])
+        respond_with Product.update(params[:id], params[:product])
       end
 
       def destroy
         respond_with Product.destroy(params[:id])
-      end
-
-      private
-      def product_params
-        params.require(:product).permit(:title,:price,:published)
       end
 
     end
