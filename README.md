@@ -36,7 +36,11 @@
   ...jumped ahead in that crap tutorial b/c all the tests were broken as was the user authentication ...
   14. generated a Product model & migration : 
        rails generate model Product  title:string price:decimal published:boolean  user_id:integer:index
-
+  15. removed relationship between user and product, not required for this exercise
+      ee app/models/user.rb 
+      ee app/models/product.rb 
+      rails generate migration RemoveUserIdFromProducts user_id:integer:index
+      rake db:migrate 
   
 ###A Note on Sources###
 
