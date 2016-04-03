@@ -22,6 +22,12 @@ module Api
       def destroy
         respond_with Product.destroy(params[:id])
       end
+
+      private
+      def product_params
+        params.require(:product).permit(:title,:price,:published)
+      end
+
     end
   end
 end
