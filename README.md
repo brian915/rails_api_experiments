@@ -39,7 +39,9 @@
       ee app/models/product.rb 
       rails generate migration RemoveUserIdFromProducts user_id:integer:index
       rake db:migrate 
-  
+  16. run migrations & add user on heroku :
+      User.create({email: "example@marketplace.com", password: "12345678",password_confirmation: "12345678"})
+      
 ###A Note on Sources###
 
 The tutorial is seriously flawed - most of the code taken from RailsCast #350, better to use both in tandem 
