@@ -33,6 +33,10 @@
       https://relishapp.com/rspec/rspec-rails/docs/upgrade
   13. curl examples not working, require **.json** at the end of the request :
       curl -H 'Accept: application/vnd.marketplace.v1' http://api.rails_api_tutorial.dev/users/1.json 
+  ...jumped ahead in that crap tutorial b/c all the tests were broken as was the user authentication ...
+  14. generated a Product model & migration : 
+       rails generate model Product  title:string price:decimal published:boolean  user_id:integer:index
+
   
 ###A Note on Sources###
 
